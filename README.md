@@ -14,6 +14,10 @@ A lightweight text-to-speech (TTS) package for Emacs on macOS that uses the Mac 
 
 - [read-aloud.el](https://github.com/gromnitsky/read-aloud.el/tree/d5f80ab72054a957aed25224639c1779cae5f4d1) This package can use the Mac `say` program, but it also works on other operating systems.
 - [piper-mode](https://github.com/snowy-0wl/piper-mode) Mac only. Uses external dependencies.
+- [speechd-el](https://github.com/brailcom/speechd-el/tree/0e509d392c7f82ca2451a59b97d551382136d2d5) This package is for the hearing impaired.
+- [say-what-im-doing](https://melpa.org/#/say-what-im-doing) This package verbalizes the commands that you issue in Emacs.
+- [greader](https://gitlab.com/michelangelo-rodriguez/greader/tree/bc7702a53db6aae35187b83e23b1f56342a16252) Depends on espeak.
+
   
 
 ## Features
