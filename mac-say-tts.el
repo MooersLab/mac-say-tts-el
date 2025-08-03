@@ -1,12 +1,12 @@
 ;;; mac-say-tts.el --- Text-to-speech for macOS using built-in 'say' command -*- lexical-binding: t; -*-
 
-;; Copyright (C) 2025 Your Name
+;; Copyright (C) 2025 Blaine Mooers and the University of Oklahoma Board of Regents
 
-;; Author: Your Name <your.email@example.com>
-;; Version: 1.0.0
-;; Package-Requires: ((emacs "25.1"))
-;; Keywords: multimedia, convenience, accessibility
-;; URL: https://github.com/yourusername/mac-say-tts
+;; Author: Blaine Mooers blaine-mooers@ou.edu
+;; Version: 0.1.0
+;; Package-Requires: ((emacs "25.1")), Mac OS, and the `say` program.
+;; Keywords: multimedia, convenience, accessibility, text-to-speech, multi-tasking, productivity
+;; URL: https://github.com/MooersLab/mac-say-tts
 
 ;; This file is not part of GNU Emacs.
 
@@ -36,10 +36,10 @@
 ;; - Works on all Apple Silicon Macs
 ;;
 ;; Usage:
-;; Enable the mode with `mac-say-tts-mode' or globally with `global-mac-say-tts-mode'.
+;; Enable the mac-say-tts-mode with `mac-say-tts-mode' or globally with `global-mac-say-tts-mode'.
 ;; Toggle the mode quickly with `mac-say-toggle' (bound to C-c M t by default).
 ;;
-;; When the mode is active, the following key bindings are available:
+;; When the mac-say-tts-mode is active, the following key bindings are available:
 ;; C-c M w - Speak the current word
 ;; C-c M s - Speak the current sentence
 ;; C-c M p - Speak the current paragraph
@@ -47,6 +47,7 @@
 ;; C-c M k - Stop all speech
 ;; C-c M v - List all available voices
 ;; C-c M d - Set the default voice
+;; C-c M V - Test a voice
 
 ;;; Code:
 
