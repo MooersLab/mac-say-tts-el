@@ -65,6 +65,28 @@ This is a new (Emacs 29+), built-in interactive function. You will be prompted f
 (require 'mac-say-tts)
 ```
 
+## Run tests
+
+Fourteen tests are located in the file `mac-say-tts-tests.el`.
+These tests use the ert package that is built into Emacs.
+The test can be run from the command line.
+I have to provide a full path to the Emacs executable to be sure that invoke the one that I want.
+
+```bash
+/Applications/Emacs30.1.app/Contents/MacOS/Emacs -batch -l ert -l mac-say-tts.el -l mac-say-tts-tests.el -f ert-run-tests-batch-and-exit
+````
+
+Alternatively, you can add the test to your load path and require them as you would a package.
+Issue the following interactive command in the min buffer to run the tests:
+
+```elisp
+M-x ert-run-tests-interactively RET t RET
+```
+
+
+`
+
+
 ## Usage
 
 ### Enabling the Mode
