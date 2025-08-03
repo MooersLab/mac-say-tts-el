@@ -1,5 +1,5 @@
 ![Version](https://img.shields.io/static/v1?label=mac-say-tts&message=0.1&color=brightcolor)
-
+[![License: GPL 3](https://img.shields.io/badge/License-GPL3-blue.svg)](https://opensource.org/licenses/MIT)
 
 # mac-say-tts
 
