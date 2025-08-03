@@ -10,7 +10,7 @@ A lightweight text-to-speech (TTS) package for Emacs on macOS that uses the Mac 
 - Reading aloud text to catch confusing wording. This is often useful during the later stages of editing.
 - Reading aloud chunks of text while preoccupied with mundane chores like cleaning up your desk or office.
 
-## Similar Emacs packages
+## Similar Text-to-Speach Emacs packages
 
 - [read-aloud.el](https://github.com/gromnitsky/read-aloud.el/tree/d5f80ab72054a957aed25224639c1779cae5f4d1) This package can use the Mac `say` program, but it also works on other operating systems.
 - [piper-mode](https://github.com/snowy-0wl/piper-mode) Mac only. Uses external dependencies.
