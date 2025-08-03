@@ -81,15 +81,15 @@ When the mode is active, the following commands are available:
 
 | Keybinding | Command | Description |
 |------------|---------|-------------|
-| `C-c t w`  | `mac-say-current-word` | Speak the word at point |
-| `C-c t s`  | `mac-say-current-sentence` | Speak the sentence at point |
-| `C-c t p`  | `mac-say-current-paragraph` | Speak the paragraph at point |
-| `C-c t r`  | `mac-say-region` | Speak the selected region |
-| `C-c t k`  | `mac-say-stop` | Stop all speech |
-| `C-c t v`  | `mac-say-list-voices` | List all available voices for the Mac say program |
-| `C-c t t`  | `mac-say-toggle` | Toggle the mode in current buffer |
-| `C-c t V`  | `mac-say-with-voice | Enables quick tests of different voices |
-| `C-c t d`  | `mac-say-set-default-voice` | Reset the default voice |
+| `C-c M w`  | `mac-say-current-word` | Speak the word at point |
+| `C-c M s`  | `mac-say-current-sentence` | Speak the sentence at point |
+| `C-c M p`  | `mac-say-current-paragraph` | Speak the paragraph at point |
+| `C-c M r`  | `mac-say-region` | Speak the selected region |
+| `C-c M k`  | `mac-say-stop` | Stop all speech |
+| `C-c M v`  | `mac-say-list-voices` | List all available voices for the Mac say program |
+| `C-c M t`  | `mac-say-toggle` | Toggle the mode in current buffer |
+| `C-c M V`  | `mac-say-with-voice | Enables quick tests of different voices |
+| `C-c M d`  | `mac-say-set-default-voice` | Reset the default voice |
 |
 
 
