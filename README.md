@@ -12,7 +12,7 @@ A lightweight text-to-speech (TTS) package for Emacs on macOS that uses the Mac 
 
 ## Similar Emacs packages
 
-- [read-aloud.el](https://github.com/gromnitsky/read-aloud.el/tree/d5f80ab72054a957aed25224639c1779cae5f4d1) This package also uses the Mac `say` program. It also works on other operating systems.
+- [read-aloud.el](https://github.com/gromnitsky/read-aloud.el/tree/d5f80ab72054a957aed25224639c1779cae5f4d1) This package can use the Mac `say` program, but it also works on other operating systems.
 - [piper-mode](https://github.com/snowy-0wl/piper-mode) Mac only. Uses external dependencies.
   
 
